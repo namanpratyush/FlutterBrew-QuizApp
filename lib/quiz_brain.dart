@@ -34,7 +34,7 @@ class QuizBrain {
   ];
 
   void nextQuestion() {
-    if (_questionNo < _questionBank.length) {
+    if (_questionNo < _questionBank.length - 1) {
       _questionNo++;
     }
   }
